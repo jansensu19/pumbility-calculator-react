@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Outer Stage Frame -->
+  <rect width="100" height="100" rx="16" fill="#090d16" />
+  <rect x="3" y="3" width="94" height="94" rx="13" stroke="#1e293b" stroke-width="2" fill="none" />
+  
+  <!-- Top-Left Red Arrow (Up-Left) -->
+  <g id="pad-top-left">
+    <rect x="7" y="7" width="27" height="27" rx="5" fill="#f43f5e" />
+    <path d="M14 26 L14 14 L26 14" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M15 15 L26 26" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" />
+  </g>
+
+  <!-- Top-Right Red Arrow (Up-Right) -->
+  <g id="pad-top-right">
+    <rect x="66" y="7" width="27" height="27" rx="5" fill="#f43f5e" />
+    <path d="M86 26 L86 14 L74 14" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M85 15 L74 26" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" />
+  </g>
+
+  <!-- Center Yellow Step Panel -->
+  <g id="pad-center">
+    <rect x="36.5" y="36.5" width="27" height="27" rx="5" fill="#eab308" />
+    <circle cx="50" cy="50" r="7" fill="#854d0e" />
+    <circle cx="50" cy="50" r="3.5" fill="#fef08a" />
+  </g>
+
+  <!-- Bottom-Left Blue Arrow (Down-Left) -->
+  <g id="pad-bottom-left">
+    <rect x="7" y="66" width="27" height="27" rx="5" fill="#0284c7" />
+    <path d="M14 74 L14 86 L26 86" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M15 85 L26 74" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" />
+  </g>
+
+  <!-- Bottom-Right Blue Arrow (Down-Right) -->
+  <g id="pad-bottom-right">
+    <rect x="66" y="66" width="27" height="27" rx="5" fill="#0284c7" />
+    <path d="M86 74 L86 86 L74 86" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M85 85 L74 74" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" />
+  </g>
+</svg>
+
